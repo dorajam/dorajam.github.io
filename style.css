@@ -1,19 +1,37 @@
+body, * {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
 .head {
 	position: relative;
 	padding-bottom: 5px;
-	height: 30px;
-	border-bottom: 1px solid #efeef0;
+	height: 50px;
 	width: 100%;
+	margin: 0 0 0 0;
 }
 
 .icon {
 	float: left;
-	margin: 0px 0.5%;
 	opacity: 0.4;
 	height: 100%;
 }
+.icon img {
+	margin: 20px 5px 20px 5px ;
+}
 
 .icon img:hover{
+	opacity: 0.7;
+    filter: alpha(opacity=60);
+}
+
+#home {
+	opacity: 0.4;
+	height: 100%;
+	margin: 0 auto;
+}
+
+#home img:hover{
 	opacity: 0.7;
     filter: alpha(opacity=60);
 }
@@ -31,7 +49,6 @@ hr {
    /* color: #efeef0;
     background-color: #efeef0; /* Modern Browsers */
 
-
 body {
 	text-align: center;
 }
@@ -41,18 +58,17 @@ table {
 }
 
 /*.topborder {
-	border-top: 3px double #818181;
+	border-top: 1px solid #efeef0;
 	width: 400px;
 	margin: 30px auto 10px auto;
 }*/
 
 #name {
-/*	font-family: Times, Georgia, Serif;
-*/	letter-spacing: 0.1em;
+	border-top: 1px solid #efeef0;
+	letter-spacing: 0.1em;
 	text-align: center;
 	font-size: 30px;
-	/*font-family: times;*/
-	margin: 0 auto;
+	margin: 0 auto 30px;
 	color: #dc8e84;
 	 -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 3s; /* Firefox < 16 */
@@ -80,7 +96,7 @@ table {
 	font-style: normal;
 	position: relative;
 	z-index: 2;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 
 .menu:hover span{
@@ -142,6 +158,9 @@ table {
 	opacity: 1;
 	transform:translate3d(0,0,0) scale(1);
 }
+.main {
+	margin-bottom: 70px;
+}
 
 #image {
 	background-image: url("IMG_4935.jpg");
@@ -149,23 +168,22 @@ table {
     background-position: center;
 	width: 90vw;
 	height: 82vh;
-	margin-top: 0.3x%;
+	margin-top: 0.3%;
 }
-
 
 .post-image-caption {
 	font-size: 14px;
 	color: rgb(102, 102, 102);
 	margin: 20px auto 30px;
+	padding-bottom: 100px;
 
 }
 .post-image-caption::after {
 	content:"";
 	width: 200px;
-	border-bottom: 3px double #818181;
+	border-top: 1px solid #818181;
 	display: block;
 	margin: inherit;
-
 }
 
 .post-footer {
@@ -180,7 +198,7 @@ table {
 	content:"";
 	background-image: url("foot.png");
 	background-position: center;
-	margin: 5px;
+	margin: 70px;
 	height: 35px;
 	position: absolute;
 	background-size: contain;
@@ -189,14 +207,3 @@ table {
 	right:0;
 	top:0;
 }
-#end {
-	color: #dc8e84;
-	height: 20px;
-	position: absolute;
-	text-decoration: none;
-	text-align: center;
-	margin: auto;
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-
