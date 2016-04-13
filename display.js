@@ -31,7 +31,7 @@ function dropFunc3() {
 	document.getElementById("thoughts").classList.toggle('show');
 }
 
-window.onclick = function(event){
+// window.onclick = function(event){
 	// if (!event.target.matches('.menu')) {
 	// 	var dropdowns = document.getElementsByClassName("dropdownList1");
 	// 	for (var i=0; i <dropdowns.length; i++) {
