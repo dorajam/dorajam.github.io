@@ -24,32 +24,21 @@ function homeFunc() {
 	$(".post-image-caption").fadeIn();
 }
 // Portfolio section
-function dropFunc2() {
+// function dropFunc2() {
 	// document.getElementById("portfolio").classList.toggle('show');
-}
-function dropFunc3() {
-	document.getElementById("thoughts").classList.toggle('show');
-}
+// }
+// function dropFunc3() {
+// 	document.getElementById("thoughts").classList.toggle('show');
+// }
 
-window.onclick = function(event){
-	// if (!event.target.matches('.menu')) {
-	// 	var dropdowns = document.getElementsByClassName("dropdownList1");
-	// 	for (var i=0; i <dropdowns.length; i++) {
-	// 		var openDropdown = dropdowns[i];
-	// 		if (openDropdown.classList.contains('show')) {
-	// 			openDropdown.classList.remove('show');
-	// 		}
-	// 	}
-	// }
-}
-window.onclick = function(event){
-	if (!event.target.matches('.menu')) {
-		var dropdowns = document.getElementsByClassName("dropdownList2");
-		for (var i=0; i <dropdowns.length; i++) {
-			var openDropdown = dropdowns[i];
-			if (openDropdown.classList.contains('show')) {
-				openDropdown.classList.remove('show');
-			}
-		}
-	}
-}
+// window.onclick = function(event){
+// 	if (!event.target.matches('.menu')) {
+// 		var dropdowns = document.getElementsByClassName("dropdownList2");
+// 		for (var i=0; i <dropdowns.length; i++) {
+// 			var openDropdown = dropdowns[i];
+// 			if (openDropdown.classList.contains('show')) {
+// 				openDropdown.classList.remove('show');
+// 			}
+// 		}
+// 	}
+// }

@@ -1,6 +1,7 @@
 body, * {
 	margin: 0 0 0 0;
 	padding: 0 0 0 0;
+  text-decoration: none;
 }
 
 .head {
@@ -129,11 +130,11 @@ table {
 	display: inline-block;
 }
 
-/*#portfolio div {
+#portfolio div {
 	margin: 0 5px 0 5px;
 	float:center;
 
-}*/
+}
 .dropdownList2{
 	position: absolute;
 	width: 100%;
