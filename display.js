@@ -23,10 +23,7 @@ function homeFunc() {
 	$('#image').fadeIn();
 	$(".post-image-caption").fadeIn();
 }
-// Portfolio section
-// function dropFunc2() {
-	// document.getElementById("portfolio").classList.toggle('show');
-// }
+
 // function dropFunc3() {
 // 	document.getElementById("thoughts").classList.toggle('show');
 // }
