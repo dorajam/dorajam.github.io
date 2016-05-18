@@ -18,10 +18,18 @@ $(window).scroll(function() {
 function dropFunc1() {
 	$('#image').fadeOut();
 	$(".post-image-caption").fadeOut();
+	$('#about').fadeIn();
+
 }
 function homeFunc() {
+	$('#about').fadeOut();
 	$('#image').fadeIn();
 	$(".post-image-caption").fadeIn();
+
+}
+
+window.onload = function() {
+	$('#about').hide()
 }
 
 // function dropFunc3() {
