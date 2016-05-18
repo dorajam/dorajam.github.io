@@ -1,7 +1,9 @@
 body, * {
-	margin: 0 0 0 0;
+	margin: 0 auto;
 	padding: 0 0 0 0;
     text-decoration: none;
+    text-align: center;
+    max-width: 1200px;
 }
 
 .head {
@@ -37,9 +39,6 @@ body, * {
     filter: alpha(opacity=60);
 }
 
-body {
-	text-align: center;
-}
 
 table {
 	margin:auto;
@@ -77,11 +76,22 @@ table {
 	font-style: normal;
 	position: relative;
 	margin-bottom: 20px;
+	font-family: "Andale Mono", "Lucida Console", "Courier New", monospace;
 }
 
 .menu:hover{
 	opacity: 0.6;
     filter: alpha(opacity=60);
+}
+
+#about {
+	font-size: 16px;
+	font-family: "Andale Mono", "Lucida Console", "Courier New", monospace;
+	display: inline-block;
+	text-align: left;
+	color: rgb(102, 102, 102);
+	font-style: normal;
+	position: relative;	
 }
 
 .show{
