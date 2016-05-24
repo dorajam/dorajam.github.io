@@ -85,13 +85,13 @@ table {
 }
 
 #about {
-	font-size: 20px;
+	font-size: 16px;
 	font-family: "Andale Mono", "Lucida Console", "Courier New", monospace;
 	display: inline-block;
 	text-align: left;
 	color: rgb(102, 102, 102);
 	font-style: normal;
-	position: relative;
+	position: relative;	
 }
 
 .show{
