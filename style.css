@@ -6,6 +6,11 @@ body, * {
     max-width: 1200px;
 }
 
+#introlink {
+    text-decoration:none;
+    color:black;
+}
+
 .head {
 	position: relative;
 	padding-bottom: 5px;
