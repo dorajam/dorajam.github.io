@@ -1,6 +1,6 @@
 # Personal website
-see website [here] (http://dorajambor.com).  
-see portfolio [here] (http://dorajambor.com/portfolio).  
+see website: http://dorajambor.com.  
+see portfolio: http://dorajambor.com/portfolio.  
 
 
 ### some more projects:
